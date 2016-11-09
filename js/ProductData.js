@@ -5,9 +5,9 @@ module.exports = {
     localStorage.setItem('product', JSON.stringify([
       {
         id: '0011001',
-        name: 'A Thing',
-        image: '',
-        description: 'it does stuff',
+        name: 'Meeseeks Box',
+        image: 'MeeseeksHQ.png',
+        description: 'Hi I\'m Mr. Meeseeks!',
         variants: [
           {
             sku: '123123',
@@ -18,14 +18,14 @@ module.exports = {
           },
           {
             sku: '123124',
-            type: '6 Pack',
+            type: 'Six pack',
             price: 12.99,
             inventory: 5
           },
           {
             sku: '1231235',
-            type: '30 Pack',
-            price: 19.99,
+            type: '24 pack',
+            price: 49.99,
             inventory: 2
           }
         ]

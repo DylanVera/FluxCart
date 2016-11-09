@@ -34,7 +34,7 @@ var FluxCart = React.createClass({
 
   // Render cart view
   render: function() {
-    var self = this, cart = this.props.cart, selectedProduct = this.props.products, variant, vars;
+    var self = this, cart = this.props.cart, selectedProduct = this.props.products, variant;
     return (
       <div className={"flux-cart " + (this.props.visible ? 'active' : '')}>
         <div className="mini-cart">
@@ -52,7 +52,7 @@ var FluxCart = React.createClass({
               
               var avail = variant.inventory - cart[product].quantity;
 
-              var update = {
+              var update = {  
                 name: cart[product].name,
                 type: cart[product].type,
                 price: cart[product].price
