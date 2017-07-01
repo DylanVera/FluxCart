@@ -19,13 +19,13 @@ module.exports = {
           {
             sku: '123124',
             type: 'Six pack',
-            price: 12.99,
+            price: 24.99,
             inventory: 5
           },
           {
             sku: '1231235',
             type: '24 pack',
-            price: 49.99,
+            price: 99.99,
             inventory: 2
           }
         ]
